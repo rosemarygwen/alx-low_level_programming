@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 
 /**
  * print_numbers - prints the numbers
@@ -18,4 +17,5 @@ void print_numbers(void)
 	{
 		_putchar(c);
 	}
+	_putchar('\n')
 }
