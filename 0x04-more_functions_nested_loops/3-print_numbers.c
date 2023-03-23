@@ -1,20 +1,22 @@
 #include "main.h"
+#include "_putchar.c"
 
 /**
- * print_numbers - entry point
+ * print_numbers - prints the numbers
+ * @c: character to be checked
  *
- * Description: Prints the numbers with _putchar
+ * declaration: print the numbers with _putchar
  *
  * Return: void
  */
 
 void print_numbers(void)
 {
-	int number;
+	char c;
 
-	for (number = '0'; number <= '9'; number++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(number);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
