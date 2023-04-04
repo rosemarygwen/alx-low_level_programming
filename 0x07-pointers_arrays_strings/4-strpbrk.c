@@ -12,6 +12,7 @@
 char *_strpbrk(char *s, char *accept)
 {
 	int rose, ray;
+
 	for (rose = 0; s[rose] != '\0'; rose++)
 	{
 		for (ray = 0; accept[ray] != '\0'; ray++)
