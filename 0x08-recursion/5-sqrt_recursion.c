@@ -3,7 +3,7 @@
 /**
  * _sqrt_recursion - the function
  * @n: parameter
- * Return: value
+ * Return: 0
  */
 
 int _sqrt_recursion(int n)
