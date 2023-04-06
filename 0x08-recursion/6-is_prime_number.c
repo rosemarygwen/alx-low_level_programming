@@ -3,7 +3,7 @@
 /**
  * is_prime_number - the function
  * @n: parameter
- * Return: value
+ * Return: 0
  */
 
 int is_prime_number(int n)
@@ -15,7 +15,7 @@ int is_prime_number(int n)
  * is_prime - the function
  * @num: parameter
  * @root: parameter
- * Return: value
+ * Return: 0
  */
 
 int is_prime(int num, int root)
