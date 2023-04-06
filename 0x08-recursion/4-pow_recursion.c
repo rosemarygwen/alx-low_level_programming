@@ -4,7 +4,7 @@
  * _pow_recursion - the function
  * @x: parameter
  * @y: parameter
- * Return: -1 ? 1 ? value
+ * Return: 0
  */
 
 int _pow_recursion(int x, int y)
