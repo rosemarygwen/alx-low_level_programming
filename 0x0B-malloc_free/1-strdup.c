@@ -8,7 +8,6 @@
  *
  * Return: returns a pointer to the duplicated string, Null if not.
  */
- 
 char *_strdup(char *str)
 {
 	char *s;
