@@ -1,1 +1,1 @@
-all task
+README for all functions
