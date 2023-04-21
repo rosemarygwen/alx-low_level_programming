@@ -3,9 +3,9 @@
 #include <stdarg.h>
 
 /**
- * int sum_them_all - return sum of its parameters
+ * sum_them_all - return sum of its parameters
  * @n: number of parameters passed to the function
- * @Return: sum
+ * @Return: sum of the parameter
  */
 
 int sum_them_all(const unsigned int n, ...)
@@ -20,7 +20,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-		sum += va_arg(ro, int);
+		sum += va_arg(ro, const unsigned int);
 	}
 
 	va_end(ro);
