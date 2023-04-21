@@ -3,7 +3,7 @@
 
 /**
  * print_strings - print strings.
- * @separator: the number of parameters
+ * @separator: the string to print
  * @n: the number of strings
  * Return: no return.
  */
