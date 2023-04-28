@@ -4,12 +4,12 @@
 #include "lists.h"
 
 /**
-  * add_node_end - Adds a new node at the end of a linked list
-  * @head: The original linked list
-  * @str: string to add to the node
-  *
-  * Return: address of the new list or NULL if it failed
-  */
+ * add_node_end - Add new node in the end of the linked list.
+ * @head: head of the linked list.
+ * @str: string to add.
+ *
+ * Return: pointer of the new node added to linked list.
+ */
 
 list_t *add_node_end(list_t **head, const char *str)
 {
@@ -38,7 +38,7 @@ list_t *add_node_end(list_t **head, const char *str)
  * _strlen - Calculate lenght of a string.
  * @s: string.
  *
- * Return: lenght of the string.
+ * Return: lenght of the string s.
  */
 
 int _strlen(const char *s)
