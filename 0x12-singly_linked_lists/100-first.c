@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include "list.h"
 
 /**
  * premain - execute code before the main
- * description - execute code before the main 
+ * description - execute code before the main
  * return - nothing
  */
 void __attribute__ ((constructor)) premain(void)
